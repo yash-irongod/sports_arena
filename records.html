@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Records — Sports Arena</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap container">
+      <a href="index.html" class="brand" aria-label="Sports Arena home">
+        <img src="assets/logo.png" alt="logo" class="logo" />
+        <span class="brand-text">Sports Arena</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="register.html" class="nav-link">Register</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="records.html" class="nav-link active">Records</a>
+        <a href="booking.html" class="nav-link">Booking</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn ghost" href="login.html">Login👨‍🎓</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" style="margin-top:18px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <h3>Records & Results</h3>
+          <p class="muted">Historic records for campus sports — default entries included below.</p>
+        </div>
+
+        <div style="display:flex;gap:8px;align-items:center">
+          <a
+            class="btn ghost"
+            href="data:text/csv;charset=utf-8,Sport,Record,Holder,Value,Year%0AFootball,Most Goals (Season),Team A,28 goals,2024%0ABadminton,Singles Champion,Priya K.,Undefeated,2023%0ACricket,Highest Team Score,Team B,312/7 (40 overs),2022"
+            download="sports-records.csv"
+            title="Download CSV of records"
+          >Export CSV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card table-wrap" style="margin-top:18px;overflow:auto">
+      <table class="striped" role="table" aria-label="Sports records table">
+        <thead>
+          <tr>
+            <th scope="col">Sport</th>
+            <th scope="col">Record</th>
+            <th scope="col">Holder</th>
+            <th scope="col">Value / Note</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Football</td>
+            <td>Most Goals (Season)</td>
+            <td>Team A</td>
+            <td>28 goals</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Badminton</td>
+            <td>Singles Champion</td>
+            <td>Priya K.</td>
+            <td>Undefeated</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Cricket</td>
+            <td>Highest Team Score</td>
+            <td>Team B</td>
+            <td>312/7 (40 overs)</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Athletics</td>
+            <td>100m (Men)</td>
+            <td>Rohit S.</td>
+            <td>10.98s</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Sports Arena</strong>
+        <p class="muted">K.R. Mangalam University • Sports Office</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="socials muted">
+        <a href="#"><img src=assets/ig.png alt="instagram handle" width="40"></a>
+        <a href="#"><img src=assets/fb.png alt="facebook handle" width="40"></a>
+        <a href="#"><img src=assets/tw.png alt="twitter handle" width="40"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

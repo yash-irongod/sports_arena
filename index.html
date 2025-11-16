@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sports Arena — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap container">
+      <a href="index.html" class="brand" aria-label="Sports Arena home">
+        <img src="assets/logo.png" alt="Sports Arena logo" class="logo" />
+        <span class="brand-text">Sports Arena</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="register.html" class="nav-link">Register</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="records.html" class="nav-link">Records</a>
+        <a href="booking.html" class="nav-link">Booking</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn ghost" href="login.html">Login👨‍🎓</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Play. Compete. Shine.</h1>
+        <p class="lead">A modern portal for scheduling, registrations, galleries and performance records — built for K.R. Mangalam University sports.</p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" href="events.html">Explore Events</a>
+          <a class="btn outline" href="register.html">Register Now</a>
+        </div>
+
+        <ul class="highlights">
+          <li><strong>Live schedules</strong> & real-time updates</li>
+          <li><strong>Easy booking</strong> for courts & fields</li>
+          <li><strong>Team management</strong> & record tracking</li>
+        </ul>
+      </div>
+
+      <aside class="hero-right">
+        <div class="card booking-preview float">
+          <div class="card-head">
+            <h4>Next Event</h4>
+            <span class="pill">Open</span>
+          </div>
+          <div class="card-body">
+            <h3>Inter-College Football</h3>
+            <p class="muted small">25 Nov 2025 • Main Ground</p>
+            <div class="meta">
+              <div><strong>Teams: </strong><span class="meta-val">16</span></div>
+              <div><strong>Type: </strong><span class="meta-val">Knockout</span></div>
+            </div>
+            <div class="card-actions">
+              <a class="btn small" href="register.html">Register Team</a>
+              <a class="btn ghost small" href="events.html">View All</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card stats">
+          <div class="stat">
+            <div class="num">120+</div>
+            <div class="label">Participants</div>
+          </div>
+          <div class="stat">
+            <div class="num">24</div>
+            <div class="label">Events</div>
+          </div>
+          <div class="stat">
+            <div class="num">15</div>
+            <div class="label">Facilities</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+<section class="container">
+  <div class="feature-scroll">
+    <div class="feature-track" aria-hidden="false" role="group" aria-label="Featured actions rotating">
+
+      <!-- FIRST SET -->
+      <article class="feature card">
+        <div class="icon">⚽</div>
+        <h3>Events & Fixtures</h3>
+        <p>Smart filters and calendar-friendly schedules for players and spectators.</p>
+        <a href="events.html" class="link">See events →</a>
+      </article>
+
+      <article class="feature card">
+        <div class="icon">📝</div>
+        <h3>Quick Registration</h3>
+        <p>Forms with team and individual workflows to make signups easy.</p>
+        <a href="register.html" class="link">Register →</a>
+      </article>
+
+      <article class="feature card">
+        <div class="icon">📸</div>
+        <h3>Gallery & Highlights</h3>
+        <p>High-quality photos and event highlights shared for the campus community.</p>
+        <a href="gallery.html" class="link">View gallery →</a>
+      </article>
+
+
+      <!-- DUPLICATED SET — required for seamless loop -->
+      <article class="feature card" aria-hidden="true">
+        <div class="icon">⚽</div>
+        <h3>Events & Fixtures</h3>
+        <p>Smart filters and calendar-friendly schedules for players and spectators.</p>
+        <a href="events.html" class="link">See events →</a>
+      </article>
+
+      <article class="feature card" aria-hidden="true">
+        <div class="icon">📝</div>
+        <h3>Quick Registration</h3>
+        <p>Forms with team and individual workflows to make signups easy.</p>
+        <a href="register.html" class="link">Register →</a>
+      </article>
+
+      <article class="feature card" aria-hidden="true">
+        <div class="icon">📸</div>
+        <h3>Gallery & Highlights</h3>
+        <p>High-quality photos and event highlights shared for the campus community.</p>
+        <a href="gallery.html" class="link">View gallery →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    
+
+    <section class="container testimonials">
+      <h2>What players say</h2>
+      <div class="test-grid">
+        <blockquote class="test card">"The portal made booking practice slots effortless."<cite>— Priya K., Badminton</cite></blockquote>
+        <blockquote class="test card">"Quick registration & easy team management."<cite>— Arun P., Football</cite></blockquote>
+        <blockquote class="test card">"Beautiful gallery and fast results updates."<cite>— Coach Mehta</cite></blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Sports Arena</strong>
+        <p class="muted">K.R. Mangalam University • Sports Office</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="socials muted">
+        <a href="#"><img src=assets/ig.png alt="instagram handle" width="40"></a>
+        <a href="#"><img src=assets/fb.png alt="facebook handle" width="40"></a>
+        <a href="#"><img src=assets/tw.png alt="twitter handle" width="40"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
