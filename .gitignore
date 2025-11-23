@@ -1,0 +1,26 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node-related files (future-proofing if you ever add npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Build / dist folders (if created in the future)
+dist/
+build/
+
+# Cache folders
+.cache/
